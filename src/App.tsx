@@ -5,7 +5,6 @@ import {
   Hero,
   PopularProducts,
   Services,
-  SpecialOffer,
   Subscribe,
   SuperQuality,
 } from "./sections/index";
@@ -26,9 +25,6 @@ function App() {
       </section>
       <section className="py-10 padding-x">
         <Services />
-      </section>
-      <section className="padding">
-        <SpecialOffer />
       </section>
       <section className="bg-pale-blue padding">
         <CustomerReviews />
