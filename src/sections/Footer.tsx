@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-5 mt-9 ">
             {socialMedia.map((icon) => (
-              <div className="flex items-center justify-center w-12 h-12 bg-white">
+              <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full">
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </div>
             ))}
@@ -31,7 +31,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className="mt-3 text-base leading-normal font-montserrat text-white-400 hover:text-slate-gray rounded-full"
+                    className="mt-3 text-base leading-normal font-montserrat text-white-400 hover:text-slate-gray "
                     key={link.name}
                   >
                     <a href={link.link}>{link.name}</a>
